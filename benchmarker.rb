@@ -1,3 +1,4 @@
+
 def my_benchmark(number_of_times)
 	start_time = Time.now
 
@@ -6,6 +7,7 @@ def my_benchmark(number_of_times)
 	end
 
 	end_time = Time.now
+	
 	print "It took #{end_time - start_time} seconds to run the given block"
 end
 
